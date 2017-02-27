@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView_regist"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/testbg">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/testbg"
+        tools:context="com.seu.seuairmonitor.LoginActivity">
+
+        <pl.droidsonroids.gif.GifTextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/testbg"
+            />
+        <ImageView
+            android:id="@+id/title_regist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/title" />
+
+        <ImageView
+            android:id="@+id/mainicon_regist"
+            android:layout_width="111dp"
+            android:layout_height="105dp"
+            android:layout_below="@id/title_regist"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/registdialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mainicon_regist"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/registdialog"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/register_username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="75dp"
+                android:background="@null"
+                android:singleLine="true"
+                android:textSize="13dp"
+                android:hint="输入用户名" />
+
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="75dp"
+                android:background="@null"
+                android:singleLine="true"
+                android:textSize="13dp"
+                android:password="true"
+                android:hint="输入密码" />
+
+            <EditText
+                android:id="@+id/register_password2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="75dp"
+                android:background="@null"
+                android:singleLine="true"
+                android:textSize="13dp"
+                android:password="true"
+                android:hint="确认密码" />
+
+            <EditText
+                android:id="@+id/register_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="75dp"
+                android:background="@null"
+                android:singleLine="true"
+                android:textSize="13dp"
+                android:hint="邮箱" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/registbutton_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registdialog"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/registbutton"
+            android:layout_centerInParent="true"
+             />
+
+    </RelativeLayout>
+
+</ScrollView>

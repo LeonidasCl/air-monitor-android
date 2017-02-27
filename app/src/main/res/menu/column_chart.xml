@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="lecho.lib.hellocharts.samples.ColumnChartActivity" >
+
+    <item
+        android:id="@+id/action_reset"
+        android:title="刷新数据"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_stacked"
+        android:title="显示污染成分"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_axes"
+        android:title="坐标轴开/关"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_labels"
+        android:title="标签开/关"
+        app:showAsAction="never"/>
+  <!--  <item
+        android:id="@+id/action_animate"
+        android:title="模拟数据（开发模式）"
+        app:showAsAction="never"/-->
+    <item
+        android:id="@+id/action_toggle_selection_mode"
+        android:title="标签选择开/关"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_touch_zoom"
+        android:title="缩放开/关"
+        app:showAsAction="never"/>
+
+</menu>

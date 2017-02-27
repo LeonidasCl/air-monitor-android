@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/testbg"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/testbg"
+        tools:context="com.seu.seuairmonitor.LoginActivity">
+
+        <pl.droidsonroids.gif.GifTextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/testbg"
+            />
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/title" />
+
+        <ImageView
+            android:id="@+id/mainicon"
+            android:layout_width="111dp"
+            android:layout_height="105dp"
+            android:layout_below="@id/title"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/logininput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mainicon"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/logininput"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="输入用户名"
+                android:singleLine="true"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="输入密码"
+                android:password="true"
+                android:singleLine="true"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+
+
+        <!--登录按钮-->
+        <Button
+            android:id="@+id/loginbutton_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logininput"
+            android:layout_marginTop="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/loginbutton" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

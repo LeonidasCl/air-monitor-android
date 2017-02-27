@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Indigo_colorPrimaryDark">#303f9f</color>
+    <color name="Indigo_colorPrimary">#3f51b5</color>
+    <color name="Indigo_nav_color">#4675FF</color>
+
+    <color name="Indigo_color_blue">#0277bd</color>
+    <color name="Indigo_color_bule_darker">#01579b</color>
+    <color name="holo_blue">#33B5E5</color>
+    <color name="holo_blue_light">#8033B5E5</color>
+    <color name="holo_blue_dark">#0099CC</color>
+    <color name="holo_orange_dark">#FF8800</color>
+    <color name="holo_orange">#FFBB33</color>
+
+    <color name="Indigo_color_cyan">#00838f</color>
+    <color name="Indigo_color_cyan_darker">#006064</color>
+
+    <color name="Indigo_color_teal">#00695c</color>
+    <color name="Indigo_color_teal_darker">#004d40</color>
+
+    <color name="Indigo_color_orange">#d84315</color>
+    <color name="Indigo_color_orange_darker">#bf360c</color>
+</resources>
